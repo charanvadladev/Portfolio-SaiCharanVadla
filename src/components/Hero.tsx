@@ -15,10 +15,10 @@ export const Hero: React.FC = () => {
       className="relative flex min-h-screen flex-col justify-between pt-28 pb-12 lg:justify-center lg:pt-20 lg:pb-12"
     >
       <div className="relative z-20 mx-auto w-full max-w-[1320px] px-6 lg:px-14">
-        <div className="flex min-h-[76vh] flex-col justify-between gap-6 lg:grid lg:min-h-0 lg:grid-cols-12 lg:items-center lg:gap-6">
+        <div className="flex min-h-[76vh] flex-col justify-between gap-6 lg:grid lg:min-h-0 lg:grid-cols-12 lg:items-center lg:gap-4">
           {/* Left Flank: Greeting & Name */}
-          <div className="lg:col-span-4">
-            <div className="inline-block rounded-xl bg-[#050407]/70 p-3 lg:bg-transparent lg:p-0">
+          <div className="lg:col-span-3">
+            <div className="inline-block bg-transparent p-0">
               <div
                 data-hero-stagger
                 data-hero-meta
@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
               <h1
                 data-hero-stagger
                 data-hero-name
-                className="mt-1.5 font-display text-[clamp(2.3rem,3.9vw,3.65rem)] font-bold uppercase leading-[1.02] tracking-tight text-[#f4f4f5]"
+                className="mt-1.5 font-display text-[clamp(2.1rem,3.3vw,3.2rem)] font-bold uppercase leading-[1.02] tracking-tight text-[#f4f4f5]"
               >
                 Sai Charan
                 <br />
@@ -57,15 +57,15 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          {/* Center Window Reserved Open for the 3D Avatar Bust */}
+          {/* Center Window Reserved Open for the 3D Avatar Bust & Waving Hand */}
           <div
             aria-hidden="true"
-            className="h-[36vh] w-full lg:col-span-4 lg:h-[460px]"
+            className="h-[38vh] w-full lg:col-span-6 lg:h-[500px]"
           />
 
           {/* Right Flank: Kinetic Role Typography + Primary CTA */}
-          <div className="lg:col-span-4 lg:pl-4">
-            <div className="rounded-xl bg-[#050407]/75 p-4 lg:bg-transparent lg:p-0">
+          <div className="self-end text-right lg:col-span-3 lg:self-auto">
+            <div className="bg-transparent p-0 text-right">
               <div
                 data-hero-stagger
                 data-hero-role
@@ -86,12 +86,12 @@ export const Hero: React.FC = () => {
               <p
                 data-hero-stagger
                 data-hero-summary
-                className="mt-4 max-w-xs text-sm leading-relaxed text-[#a1a1aa]"
+                className="mt-4 ml-auto max-w-xs text-sm leading-relaxed text-[#a1a1aa]"
               >
                 {DEVELOPER_PROFILE.heroSupporting}
               </p>
 
-              <div className="mt-6 flex flex-wrap items-center gap-3">
+              <div className="mt-6 flex flex-wrap items-center justify-end gap-3">
                 <a
                   data-hero-stagger
                   data-hero-cta

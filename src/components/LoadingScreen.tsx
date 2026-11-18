@@ -46,12 +46,12 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     <div
       aria-live="polite"
       aria-label="Loading Developer Lab"
-      className={`fixed inset-0 z-50 flex items-center justify-center bg-[#050407] transition-opacity duration-300 ${
+      className={`fixed inset-0 z-50 flex items-center justify-center bg-[#000000] transition-opacity duration-300 ${
         phase === 'exit' ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
     >
       <div className="w-full max-w-md px-6">
-        <div className="rounded-xl border border-white/10 bg-[#09090d] p-6 shadow-2xl">
+        <div className="rounded-xl border border-white/10 bg-[#07070b] p-6 shadow-2xl">
           <div className="flex items-center justify-between text-xs font-mono-tech text-[#a1a1aa]">
             <span>THE DEVELOPER LAB</span>
             <span className="tabular-nums text-white">{progress}%</span>

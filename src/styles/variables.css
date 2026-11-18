@@ -1,9 +1,9 @@
 :root {
   /* Core Canvas & Surfaces (60-30-10 architecture) */
-  --bg-canvas: #050407;
-  --bg-elevated: #09090d;
-  --bg-surface: #111116;
-  --bg-surface-hover: #18181f;
+  --bg-canvas: #000000;
+  --bg-elevated: #060609;
+  --bg-surface: #0e0e14;
+  --bg-surface-hover: #16161e;
 
   /* Hairline Borders */
   --border-subtle: rgba(255, 255, 255, 0.08);

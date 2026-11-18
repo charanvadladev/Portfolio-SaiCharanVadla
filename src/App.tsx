@@ -87,11 +87,15 @@ export function App() {
     activeSection === 'what-i-do';
 
   return (
-    <div ref={rootRef} className="relative min-h-screen bg-[#050407] text-[#f4f4f5]">
-      {/* Pure deep obsidian studio backdrop with subtle grain (zero grid or colorful halo clutter) */}
+    <div ref={rootRef} className="relative min-h-screen bg-[#000000] text-[#f4f4f5]">
+      {/* Pure studio black backdrop matching character lighting with subtle ambient rim depth */}
       <div
         aria-hidden="true"
-        className="lab-noise pointer-events-none fixed inset-0 z-0"
+        className="pointer-events-none fixed inset-0 z-0"
+        style={{
+          background:
+            'radial-gradient(ellipse 68% 54% at 50% 42%, rgba(88, 48, 128, 0.085) 0%, rgba(16, 12, 24, 0.04) 48%, #000000 85%)',
+        }}
       />
 
       {/* Full-viewport Three.js 3D Developer Stage */}

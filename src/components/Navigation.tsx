@@ -40,11 +40,44 @@ export const Navigation: React.FC = () => {
     }
   };
 
+  const handleResumeDownload = async (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    closeDrawer = false,
+  ) => {
+    e.preventDefault();
+    if (closeDrawer) setMobileOpen(false);
+
+    try {
+      const response = await fetch(RESUME_PDF_URL);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const blob = await response.blob();
+      const pdfBlob = new Blob([blob], { type: 'application/pdf' });
+      const blobUrl = URL.createObjectURL(pdfBlob);
+
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.download = 'Sai_Charan_Vadla_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.setTimeout(() => URL.revokeObjectURL(blobUrl), 1500);
+    } catch {
+      const fallbackLink = document.createElement('a');
+      fallbackLink.href = RESUME_PDF_URL;
+      fallbackLink.download = 'Sai_Charan_Vadla_Resume.pdf';
+      document.body.appendChild(fallbackLink);
+      fallbackLink.click();
+      document.body.removeChild(fallbackLink);
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         scrolled
-          ? 'border-b border-white/10 bg-[#050407]/92 py-4'
+          ? 'border-b border-white/10 bg-[#000000]/92 py-4'
           : 'border-b border-transparent bg-transparent py-6'
       }`}
     >
@@ -77,6 +110,7 @@ export const Navigation: React.FC = () => {
           <a
             href={RESUME_PDF_URL}
             download="Sai_Charan_Vadla_Resume.pdf"
+            onClick={(e) => handleResumeDownload(e)}
             className="hidden md:inline-flex min-h-[38px] items-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-4 py-2 text-xs font-medium tracking-wide text-[#e4e4e7] transition-colors duration-200 hover:border-white/35 hover:bg-white/10 hover:text-white whitespace-nowrap shrink-0"
           >
             <Download className="h-3.5 w-3.5" />
@@ -97,7 +131,7 @@ export const Navigation: React.FC = () => {
 
       {/* Mobile Navigation Drawer */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-out border-b border-white/10 bg-[#050407]/96 ${
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-out border-b border-white/10 bg-[#000000]/96 ${
           mobileOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 border-b-0'
         }`}
       >
@@ -115,7 +149,7 @@ export const Navigation: React.FC = () => {
           <a
             href={RESUME_PDF_URL}
             download="Sai_Charan_Vadla_Resume.pdf"
-            onClick={() => setMobileOpen(false)}
+            onClick={(e) => handleResumeDownload(e, true)}
             className="mt-2 inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[0.04] px-4 py-2 text-sm font-medium text-[#f4f4f5] transition-colors hover:border-white/35 hover:bg-white/10"
           >
             <Download className="h-4 w-4" />
