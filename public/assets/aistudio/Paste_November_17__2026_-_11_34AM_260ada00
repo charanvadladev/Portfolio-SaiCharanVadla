@@ -1,0 +1,1327 @@
+You are an expert creative director, senior UI/UX designer, motion designer, and React frontend engineer.
+
+Build a completely new, futuristic, highly interactive personal developer portfolio website for me.
+
+IMPORTANT:
+I have attached a reference image of a developer portfolio. Use the reference ONLY as inspiration for the idea of:
+- an illustrated developer character
+- a visually engaging hero section
+- a strong personal identity
+- animated visual storytelling
+
+DO NOT copy the reference website's layout, colors, typography, composition, cards, navigation, character style, or visual structure.
+
+Create your own original visual identity.
+
+The website should feel like a premium futuristic developer portfolio that could impress:
+- software engineering recruiters
+- hiring managers
+- technical leads
+- startup founders
+- engineering managers
+
+It should immediately communicate that I am a serious Full Stack Software Engineer who works across frontend, backend, cloud, DevOps, AI, and modern software architecture.
+
+====================================================
+1. TECHNOLOGY
+====================================================
+
+Use:
+
+- React.js
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- JavaScript/TypeScript
+- GSAP for advanced animations
+- ScrollTrigger for scroll-based animations
+- Framer Motion where appropriate
+- Three.js / React Three Fiber only where it genuinely improves the experience
+- Lucide React or another lightweight icon library
+
+Do NOT use a heavy UI framework such as Material UI, Bootstrap, or Ant Design.
+
+Prefer custom CSS and reusable React components.
+
+The website must be fully responsive.
+
+Desktop, tablet, and mobile must all have carefully designed layouts.
+
+====================================================
+2. CORE CREATIVE CONCEPT
+====================================================
+
+Create a futuristic concept called:
+
+"THE DEVELOPER LAB"
+
+The website should feel like the visitor is entering my personal digital workspace.
+
+Instead of making the website look like a normal resume, create a visual journey through my career and engineering work.
+
+The experience should combine:
+
+- futuristic software engineering
+- digital workspace
+- interactive UI
+- subtle 3D elements
+- animated developer character
+- code
+- system architecture
+- dashboards
+- terminal interfaces
+- floating technical objects
+- project visualizations
+- elegant motion
+
+The overall design should be:
+
+- futuristic
+- premium
+- minimal but visually rich
+- sophisticated
+- technical
+- memorable
+- professional
+- recruiter-friendly
+
+Avoid making it look like a gaming website.
+
+Avoid excessive neon colors.
+
+Avoid generic "AI generated portfolio" aesthetics.
+
+The website should look like something designed by a high-end product designer.
+
+====================================================
+3. VISUAL IDENTITY
+====================================================
+
+Create an original visual system.
+
+Use a dark futuristic background with subtle depth.
+
+Possible visual direction:
+
+- near-black / deep charcoal background
+- off-white typography
+- electric blue / cyan as primary accent
+- violet or subtle orange as secondary accent
+- glassmorphism used sparingly
+- soft gradients
+- subtle grid systems
+- glowing borders
+- ambient particles
+- depth and shadows
+
+Do not make every element glow.
+
+The design should have strong visual hierarchy.
+
+Typography should be modern and highly readable.
+
+Use a large modern display font for headings and a clean sans-serif font for body text.
+
+Use monospace typography selectively for:
+
+- code
+- terminal
+- technical metadata
+- system labels
+- technology names
+
+====================================================
+4. HERO SECTION — MOST IMPORTANT
+====================================================
+
+The landing page must immediately capture attention.
+
+Create a full-screen hero experience.
+
+The hero should contain:
+
+LEFT / CENTER:
+
+A powerful introduction such as:
+
+"Hi, I'm Sai Charan."
+
+"Full Stack Software Engineer"
+
+Supporting text:
+
+"I build scalable web applications, cloud systems, and intelligent software experiences."
+
+Include small technical metadata such as:
+
+Germany · Software Engineer · Full Stack · Cloud · AI
+
+Include two primary actions:
+
+"Explore My Work"
+
+"Contact Me"
+
+But make these buttons visually sophisticated rather than standard bootstrap buttons.
+
+RIGHT SIDE:
+
+Create an ORIGINAL futuristic illustrated 3D-style developer character.
+
+The character should represent me as a software engineer.
+
+IMPORTANT CHARACTER ANIMATION:
+
+When the website initially loads:
+
+- character should be standing/sitting naturally
+- character should smile
+- character should look friendly
+- character should subtly breathe
+- character should occasionally blink
+- character should wave toward the visitor
+- hand movement should feel natural
+- animation should loop smoothly
+
+The character should not feel like a static PNG.
+
+If true character rigging is not possible using available assets, create the effect using layered SVG/CSS/Canvas animation or an appropriate generated illustration approach.
+
+Do NOT simply put a static image on the page.
+
+The character should be visually integrated into the environment.
+
+Around the character, add subtle floating elements such as:
+
+- code snippets
+- terminal windows
+- API symbols
+- cloud icons
+- database nodes
+- Git branches
+- small UI panels
+
+These elements should have subtle floating/parallax motion.
+
+====================================================
+5. HERO ANIMATION
+====================================================
+
+The first 5–8 seconds should feel cinematic but must not delay usability.
+
+On page load:
+
+1. Background gradually appears.
+2. Small particles/grid elements activate.
+3. Developer character enters naturally.
+4. Character smiles.
+5. Character waves.
+6. Name appears.
+7. Role appears.
+8. Supporting text fades/slides into position.
+9. CTA buttons appear.
+10. Technical floating elements begin moving.
+
+Do NOT make every element move simultaneously.
+
+Use staggered animation.
+
+Animations should feel intentional and premium.
+
+====================================================
+6. IMPORTANT SCROLL TRANSFORMATION
+====================================================
+
+This is one of the most important requirements.
+
+The website should NOT simply show static sections when scrolling.
+
+Scrolling should control the story.
+
+When the visitor scrolls from the hero toward the About section, the developer character should smoothly transition from:
+
+"welcoming / waving mode"
+
+into:
+
+"working / coding mode".
+
+For example:
+
+Hero:
+
+Character smiles and waves.
+
+As the user scrolls:
+
+- camera slowly shifts
+- character moves toward a workstation
+- laptop/monitor becomes visible
+- character sits or leans toward the workstation
+- hand moves toward keyboard
+- screen lights up
+- code appears on the screen
+- floating UI panels activate
+- environment transforms into a developer workspace
+
+The transition must feel continuous.
+
+DO NOT simply fade one character image into another.
+
+Create the illusion that the same character is changing state.
+
+The animation should be controlled using GSAP ScrollTrigger or an equivalent scroll-driven animation system.
+
+Scrolling down should progressively control the animation.
+
+Scrolling back upward should reverse the animation smoothly.
+
+====================================================
+7. ABOUT / PROFILE SECTION
+====================================================
+
+After the hero transition, introduce the "About Me" section.
+
+Do not make this a boring text paragraph.
+
+Create an interactive developer profile environment.
+
+Example concept:
+
+"Developer Profile"
+
+Display information using futuristic UI panels:
+
+ROLE
+Full Stack Software Engineer
+
+LOCATION
+Germany
+
+EXPERIENCE
+3+ years professional software development
+
+FOCUS
+Web Applications · Cloud · AI · Distributed Systems
+
+EDUCATION
+Master's in Software Engineering
+
+The information should appear through animated interface elements.
+
+Use scroll-triggered animations:
+
+- panels slide into position
+- text reveals gradually
+- technical nodes connect
+- statistics animate
+- background elements move subtly
+
+Add a concise professional introduction.
+
+Keep the writing recruiter-friendly.
+
+Do not make it sound like marketing fluff.
+
+====================================================
+8. TECHNICAL SKILLS
+====================================================
+
+Create an interactive "Technology Stack" section.
+
+Instead of a traditional list of skills, create a futuristic technical ecosystem.
+
+Group skills into:
+
+FRONTEND
+- React
+- Angular
+- TypeScript
+- JavaScript
+- HTML
+- CSS
+
+BACKEND
+- .NET / ASP.NET Core
+- C#
+- Java
+- FastAPI
+- REST APIs
+- Microservices
+
+DATABASE
+- PostgreSQL
+- MongoDB
+- MySQL
+
+CLOUD / DEVOPS
+- Azure
+- AWS
+- Docker
+- Kubernetes
+- Terraform
+- GitHub Actions
+- CI/CD
+
+AI
+- Generative AI
+- LLM APIs
+- AI integration
+- Computer Vision
+- AI-powered applications
+
+TOOLS
+- Git
+- GitHub
+- RabbitMQ
+- Linux
+
+Do not claim expertise in technologies that are not actually represented by my experience.
+
+Use animated nodes, connections, orbiting elements, or an interactive technical map.
+
+When hovering over a technology:
+
+- highlight it
+- show a small explanation
+- animate connected technologies
+
+====================================================
+9. CAREER / EXPERIENCE
+====================================================
+
+Create a visually interesting experience timeline.
+
+Instead of a standard vertical resume timeline, create something resembling a software deployment pipeline.
+
+For example:
+
+EDUCATION
+↓
+SOFTWARE ENGINEERING
+↓
+FULL STACK DEVELOPMENT
+↓
+CLOUD / DEVOPS
+↓
+AI / INTELLIGENT APPLICATIONS
+↓
+CURRENT ENGINEERING WORK
+
+Each stage should activate as the visitor scrolls.
+
+Use:
+
+- animated lines
+- nodes
+- status indicators
+- dates
+- role titles
+- technologies
+- short descriptions
+
+The animation should communicate progression.
+
+====================================================
+10. PROJECTS SECTION — VERY IMPORTANT
+====================================================
+
+Projects should be one of the strongest sections of the website.
+
+Create a section titled:
+
+"Things I've Built"
+
+Do NOT create a simple grid of generic cards.
+
+Each project should feel like an interactive product showcase.
+
+Include my real projects, especially:
+
+1. Sri Laxmi Fasteners — Warehouse Management System
+
+2. AI-powered industrial product identification
+
+3. Digital Shift Logbook / AI-related thesis project
+
+4. Other relevant software engineering projects
+
+Use project information based on the content provided in this prompt and structure the project data so that it can easily be edited later.
+
+Each project should contain:
+
+- Project name
+- Short description
+- Problem
+- Solution
+- Technologies
+- Key features
+- Architecture
+- My contribution
+- GitHub link placeholder
+- Live demo placeholder
+
+====================================================
+11. PROJECT ANIMATION
+====================================================
+
+Make the project section highly interactive.
+
+When the user scrolls to a project:
+
+The environment should transform into a visual representation of the project.
+
+For example, for a warehouse management project:
+
+Show an animated warehouse/system interface.
+
+Animate:
+
+Product
+↓
+Inventory
+↓
+Database
+↓
+API
+↓
+Frontend
+↓
+User
+
+For an AI project:
+
+Show:
+
+Image
+↓
+AI model
+↓
+Analysis
+↓
+Structured result
+↓
+Application
+
+For a cloud project:
+
+Show:
+
+Frontend
+↓
+API
+↓
+Container
+↓
+Cloud
+↓
+Database
+
+These should be elegant animated diagrams rather than complicated technical diagrams.
+
+The user should visually understand what the project does.
+
+====================================================
+12. PROJECT DETAIL INTERACTION
+====================================================
+
+When hovering over a project:
+
+- project environment subtly zooms
+- interface becomes active
+- small animations begin
+- technology badges illuminate
+- project metadata appears
+
+When clicking:
+
+Open an immersive project detail view or modal.
+
+The project detail page should include:
+
+Overview
+
+Problem
+
+Solution
+
+Architecture
+
+Technology Stack
+
+Key Features
+
+My Contribution
+
+Results / Impact
+
+Links
+
+Use smooth page transitions.
+
+====================================================
+13. WORKING CHARACTER MODE
+====================================================
+
+The developer character should reappear throughout the website.
+
+This is important.
+
+The character should have different states.
+
+STATE 1 — HERO
+
+Character:
+- smiling
+- waving
+- welcoming
+
+STATE 2 — ABOUT
+
+Character:
+- standing near a digital workspace
+- observing system diagrams
+
+STATE 3 — SKILLS
+
+Character:
+- interacting with floating technology nodes
+
+STATE 4 — PROJECTS
+
+Character:
+- sitting at a workstation
+- coding
+- looking at multiple screens
+
+STATE 5 — CONTACT
+
+Character:
+- relaxed
+- friendly
+- looking toward the visitor
+
+Transitions between these states should be smooth and scroll-driven.
+
+If a complete 3D character implementation is technically impractical, create a sophisticated 2D/2.5D animated system using SVG layers, CSS transforms, GSAP and parallax.
+
+The result should still feel alive.
+
+====================================================
+14. INTERACTIVE CODE ENVIRONMENT
+====================================================
+
+Add small interactive coding environments throughout the website.
+
+For example:
+
+Terminal:
+
+> initializing portfolio...
+> loading projects...
+> connecting to developer...
+> system ready.
+
+Use typing animations.
+
+Another section could display:
+
+const developer = {
+    name: "Sai Charan",
+    role: "Full Stack Engineer",
+    location: "Germany",
+    focus: ["Web", "Cloud", "AI"]
+};
+
+The code should be decorative but meaningful.
+
+Do not overuse code blocks.
+
+====================================================
+15. SCROLL EXPERIENCE
+====================================================
+
+Scrolling must feel like navigating through an interactive story.
+
+Use:
+
+- smooth scrolling
+- scroll-triggered reveals
+- horizontal scrolling where appropriate
+- parallax
+- pinned sections
+- morphing UI
+- animated SVG paths
+- progressive transformations
+- depth transitions
+
+Avoid excessive animation.
+
+Animation should guide attention rather than distract from content.
+
+Scrolling upward should reverse animations naturally.
+
+====================================================
+16. NAVIGATION
+====================================================
+
+Create a minimal futuristic navigation.
+
+Possible structure:
+
+CHARAN
+
+About
+Experience
+Skills
+Projects
+Contact
+
+Add a small status indicator:
+
+● Available for opportunities
+
+Navigation should become slightly more compact after scrolling.
+
+Use smooth scroll.
+
+Add a mobile hamburger menu.
+
+The mobile navigation should have its own polished animation.
+
+====================================================
+17. CONTACT SECTION
+====================================================
+
+Create a strong final CTA.
+
+Instead of:
+
+"Contact Me"
+
+Use something more engaging such as:
+
+"Let's Build Something."
+
+Supporting text:
+
+"Have an interesting product, engineering challenge, or opportunity? Let's talk."
+
+Include:
+
+Email
+LinkedIn
+GitHub
+
+Use animated connection lines or a futuristic communication interface.
+
+The developer character should return to a friendly state here.
+
+Character could be standing next to a holographic communication interface.
+
+====================================================
+18. FOOTER
+====================================================
+
+Keep the footer minimal.
+
+Include:
+
+Sai Charan
+Full Stack Software Engineer
+
+Germany
+
+GitHub
+LinkedIn
+Email
+
+© Current Year Sai Charan
+
+Add a subtle animated system status:
+
+SYSTEM ONLINE ●
+
+====================================================
+19. MICRO-INTERACTIONS
+====================================================
+
+Implement polished micro-interactions.
+
+Buttons:
+
+- magnetic hover effect
+- subtle scale
+- glow
+- animated border
+
+Links:
+
+- underline animation
+- arrow movement
+
+Cards:
+
+- slight tilt
+- subtle depth
+
+Cursor:
+
+Create a custom cursor on desktop.
+
+The cursor should react to:
+
+- buttons
+- links
+- project cards
+- interactive elements
+
+Do not use custom cursor on mobile.
+
+====================================================
+20. PERFORMANCE
+====================================================
+
+This is a real portfolio website, not a demo.
+
+Performance is extremely important.
+
+Implement:
+
+- lazy loading
+- optimized images
+- code splitting
+- reusable components
+- minimal dependencies
+- GPU-friendly animations
+- transform/opacity based animation
+- avoid unnecessary re-renders
+
+Do not continuously animate expensive elements.
+
+Use requestAnimationFrame only when necessary.
+
+Respect:
+
+prefers-reduced-motion
+
+If reduced motion is enabled, significantly reduce animation.
+
+The website must still work without animations.
+
+====================================================
+21. RESPONSIVENESS
+====================================================
+
+Desktop:
+
+Use the full cinematic experience.
+
+Tablet:
+
+Reduce complex animations while maintaining the visual story.
+
+Mobile:
+
+Do NOT simply shrink the desktop design.
+
+Create a dedicated mobile experience.
+
+On mobile:
+
+- simplify character animation
+- reduce particles
+- reduce 3D effects
+- use vertical storytelling
+- maintain scroll transitions
+- keep text readable
+- maintain fast performance
+
+====================================================
+22. ACCESSIBILITY
+====================================================
+
+Implement:
+
+- semantic HTML
+- keyboard navigation
+- accessible buttons
+- proper aria labels
+- sufficient contrast
+- alt text
+- focus states
+- reduced motion support
+
+Do not sacrifice accessibility for visual effects.
+
+====================================================
+23. CODE ARCHITECTURE
+====================================================
+
+Use a clean React architecture.
+
+Example:
+
+src/
+
+components/
+    Navigation.tsx
+    Hero.tsx
+    Character.tsx
+    About.tsx
+    Skills.tsx
+    Experience.tsx
+    Projects.tsx
+    ProjectCard.tsx
+    ProjectDetail.tsx
+    Contact.tsx
+    Footer.tsx
+
+animations/
+    heroAnimations.ts
+    scrollAnimations.ts
+    characterAnimations.ts
+
+data/
+    projects.ts
+    skills.ts
+    experience.ts
+
+hooks/
+    useScrollAnimation.ts
+    useReducedMotion.ts
+
+styles/
+    globals.css
+    variables.css
+
+utils/
+
+Keep project information separate from UI components.
+
+I should be able to update projects and skills by editing data files rather than modifying components.
+
+====================================================
+24. IMPORTANT: REAL CONTENT
+====================================================
+
+Use the following information as the basis for my profile.
+
+Name:
+
+Sai Charan Vadla
+
+Professional identity:
+
+Full Stack Software Engineer
+
+Location:
+
+Germany
+
+Education:
+
+Master's in Software Engineering
+
+Professional background:
+
+3+ years of professional software development experience.
+
+Primary development experience includes:
+
+Angular
+TypeScript
+C#
+.NET / ASP.NET Core
+REST APIs
+Microservices
+PostgreSQL
+MongoDB
+RabbitMQ
+Docker
+Azure
+AWS
+Git
+CI/CD
+
+Current areas of interest:
+
+Cloud Engineering
+DevOps
+AI
+Generative AI
+Full Stack Development
+Software Architecture
+
+Use professional language.
+
+Do not exaggerate experience.
+
+Do not invent companies, achievements, certifications, salary, awards, or metrics.
+
+Where information is missing, create clearly marked placeholders rather than inventing facts.
+
+====================================================
+25. PROJECT CONTENT
+====================================================
+
+Project 1:
+
+Sri Laxmi Fasteners — Warehouse Management System
+
+Technology:
+
+React
+TypeScript
+ASP.NET Core
+MongoDB
+Docker
+GitHub Actions
+Cloud deployment
+
+Features include concepts such as:
+
+- inventory management
+- stock inward
+- stock outward
+- bag tracking
+- QR/barcode functionality
+- product management
+- warehouse operations
+- authentication
+- cloud deployment
+
+Show this project as a real production-style business application.
+
+Project 2:
+
+AI-powered Industrial Product Identification
+
+Concept:
+
+An application that analyzes uploaded images of industrial fasteners and identifies relevant product characteristics.
+
+Technology can include:
+
+- AI / computer vision
+- Python / ML
+- image processing
+- API integration
+- structured JSON output
+- React
+- ASP.NET Core
+
+Visually represent the flow:
+
+IMAGE
+→ AI ANALYSIS
+→ PRODUCT IDENTIFICATION
+→ STRUCTURED DATA
+→ APPLICATION
+
+Project 3:
+
+Digital Shift Logbook / AI-assisted manufacturing project
+
+Present this as an AI-enabled industrial software project involving digital workflows, intelligent assistance, and manufacturing operations.
+
+Visually show:
+
+Operator
+→ Digital Workflow
+→ AI Assistant
+→ Production Data
+→ Insights
+
+Do not invent unsupported business metrics.
+
+====================================================
+26. VISUAL STORYTELLING
+====================================================
+
+The most important design principle:
+
+Every section should feel like a continuation of the previous section.
+
+The website should tell a story:
+
+WELCOME
+↓
+WHO AM I?
+↓
+HOW I THINK
+↓
+WHAT I BUILD
+↓
+HOW I BUILD IT
+↓
+MY PROJECTS
+↓
+LET'S WORK TOGETHER
+
+The visitor should never feel like they are simply scrolling through a resume.
+
+====================================================
+27. HERO-TO-PROJECT STORY
+====================================================
+
+Create a continuous visual narrative.
+
+At the beginning:
+
+Developer is welcoming the visitor.
+
+As scrolling starts:
+
+Developer becomes curious.
+
+Then:
+
+Developer enters the digital workspace.
+
+Then:
+
+Developer starts coding.
+
+Then:
+
+Developer interacts with architecture diagrams.
+
+Then:
+
+Developer works on projects.
+
+Finally:
+
+Developer looks toward the visitor again at the contact section.
+
+This should create the feeling of:
+
+"You're following a developer through his working environment."
+
+====================================================
+28. VISUAL DETAILS
+====================================================
+
+Add subtle details such as:
+
+- animated grid
+- floating particles
+- holographic UI
+- terminal windows
+- system status indicators
+- animated SVG connections
+- code fragments
+- database nodes
+- API request animations
+- cloud architecture symbols
+- Git branch animations
+- subtle noise texture
+- depth shadows
+- glass panels
+
+But keep the design elegant.
+
+Do not overload the screen.
+
+====================================================
+29. LOADING EXPERIENCE
+====================================================
+
+Create a short futuristic loading screen.
+
+Example:
+
+INITIALIZING DEVELOPER PROFILE...
+
+[████████████████] 100%
+
+SYSTEM READY
+
+Then transition smoothly into the hero.
+
+Do not make the loading screen last longer than necessary.
+
+====================================================
+30. SEO
+====================================================
+
+Implement:
+
+- meaningful page title
+- meta description
+- Open Graph metadata
+- semantic headings
+- proper document structure
+- descriptive image alt text
+
+Suggested title:
+
+"Sai Charan Vadla | Full Stack Software Engineer"
+
+====================================================
+31. FINAL QUALITY REQUIREMENT
+====================================================
+
+This must NOT look like a basic portfolio template.
+
+Do not produce:
+
+- generic card grids
+- boring resume sections
+- excessive gradients
+- excessive glassmorphism
+- generic AI dashboard design
+- excessive neon
+- stock illustrations
+- repetitive animations
+- random floating shapes
+- meaningless 3D objects
+
+The result should feel like a custom-designed personal digital experience.
+
+The first 5 seconds should make a recruiter think:
+
+"This developer cares about engineering and product quality."
+
+The next 30 seconds should make them understand:
+
+- who I am
+- what I build
+- what technologies I use
+- what kind of problems I solve
+
+The projects section should convince them:
+
+"This person can actually build software."
+
+====================================================
+32. IMPLEMENTATION PRIORITY
+====================================================
+
+Prioritize in this order:
+
+1. Strong visual identity
+2. Hero experience
+3. Character animation
+4. Scroll-driven storytelling
+5. Projects
+6. Recruiter-friendly information
+7. Performance
+8. Responsive design
+9. Accessibility
+10. Micro-interactions
+
+Do not sacrifice usability for visual effects.
+
+====================================================
+33. DEVELOPMENT APPROACH
+====================================================
+
+First create the overall design system and component architecture.
+
+Then implement:
+
+Phase 1:
+- project setup
+- global styling
+- fonts
+- colors
+- layout system
+
+Phase 2:
+- navigation
+- hero
+- animated character
+- initial animations
+
+Phase 3:
+- scroll-driven character transformation
+- About
+- Skills
+- Experience
+
+Phase 4:
+- Projects
+- project visualizations
+- project detail interaction
+
+Phase 5:
+- Contact
+- Footer
+- responsive design
+
+Phase 6:
+- performance optimization
+- accessibility
+- SEO
+- final polish
+
+Use reusable components.
+
+Do not put the entire website into one React component.
+
+====================================================
+34. VERY IMPORTANT — DESIGN BEFORE CODING
+====================================================
+
+Before implementing the final code, think through the entire visual experience.
+
+Define:
+
+- color palette
+- typography
+- spacing system
+- animation language
+- character states
+- scroll timeline
+- section transitions
+- project visualization style
+
+The design must be internally consistent.
+
+Do not copy the attached reference.
+
+Use it only to understand the desired level of visual personality.
+
+====================================================
+35. FINAL DELIVERABLE
+====================================================
+
+Generate a complete working React + TypeScript portfolio.
+
+It should run with:
+
+npm install
+npm run dev
+
+Provide:
+
+- complete source code
+- package.json
+- Vite configuration
+- React components
+- CSS
+- animation logic
+- project data
+- responsive layouts
+- README
+
+Make sure there are no broken imports.
+
+Make sure there are no placeholder components that are required for the website to function.
+
+Where external assets are required, structure the project so they can easily be replaced.
+
+Use comments for complex animation logic.
+
+The final result should be production-quality and visually impressive.
+
+Again:
+
+DO NOT COPY THE ATTACHED REFERENCE DESIGN.
+
+Create an original futuristic visual language.
+
+The website should feel like an interactive cinematic developer experience rather than a traditional portfolio.

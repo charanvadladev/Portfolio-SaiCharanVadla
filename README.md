@@ -1,11 +1,27 @@
-<div align="center">
+# Sai Charan Vadla — The Developer Lab
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An interactive, scroll-driven software engineering portfolio built with React, TypeScript, Vite, Tailwind CSS, GSAP + ScrollTrigger, and Three.js.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Continuous Scroll-Driven Character Story**: An articulated 2.5D SVG developer character that transitions continuously via GSAP `ScrollTrigger` from welcoming/waving mode in the Hero into workstation coding mode in About, plus dedicated interactive states in Skills, Projects, and Contact.
+- **Interactive Technology Ecosystem**: Explore Frontend, Backend, Database, Cloud/DevOps, AI, and Tools nodes with live dependency highlighting.
+- **Deployment Pipeline Experience**: Career progression designed as an animated software release pipeline.
+- **Interactive Project Showcases**: Real-world production, industrial AI, and cloud projects with animated architecture flow diagrams and a full case-study modal.
+- **Performance & Accessibility**: Lazy-loaded below-the-fold sections, GPU-friendly transforms, software WebGL fallback detection, keyboard navigation, and full `prefers-reduced-motion` compliance.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Updating Content
 
-</div>
+All portfolio data is separated from UI components inside `src/data/`:
+
+- `src/data/profile.ts` — Bio, panels, terminal lines, and contact links
+- `src/data/skills.ts` — Technology nodes, descriptions, and ecosystem connections
+- `src/data/experience.ts` — Engineering deployment pipeline stages
+- `src/data/projects.ts` — Project case studies, architecture flows, and repository/demo links
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```

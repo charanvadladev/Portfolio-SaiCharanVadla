@@ -1,0 +1,33 @@
+:root {
+  /* Core Canvas & Surfaces (60-30-10 architecture) */
+  --bg-canvas: #07090d;
+  --bg-elevated: #0d1118;
+  --bg-surface: #121824;
+  --bg-surface-hover: #171f2e;
+
+  /* Hairline Borders */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --border-accent: rgba(56, 189, 248, 0.42);
+
+  /* Typography */
+  --text-primary: #f3f6fa;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Focal Accents (10% budget) */
+  --accent-cyan: #38bdf8;
+  --accent-indigo: #818cf8;
+  --accent-amber: #f59e0b;
+  --accent-emerald: #34d399;
+
+  /* Font Families */
+  --font-display: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Motion Curves & Radii */
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-card: 16px;
+  --radius-inner: 10px;
+}
