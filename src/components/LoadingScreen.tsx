@@ -46,18 +46,18 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     <div
       aria-live="polite"
       aria-label="Loading Developer Lab"
-      className={`fixed inset-0 z-50 flex items-center justify-center bg-[#07090d] transition-opacity duration-300 ${
+      className={`fixed inset-0 z-50 flex items-center justify-center bg-[#050407] transition-opacity duration-300 ${
         phase === 'exit' ? 'opacity-0 pointer-events-none' : 'opacity-100'
       }`}
     >
       <div className="w-full max-w-md px-6">
-        <div className="rounded-xl border border-white/10 bg-[#0d1118] p-6 shadow-2xl">
-          <div className="flex items-center justify-between text-xs font-mono-tech text-[#94a3b8]">
+        <div className="rounded-xl border border-white/10 bg-[#09090d] p-6 shadow-2xl">
+          <div className="flex items-center justify-between text-xs font-mono-tech text-[#a1a1aa]">
             <span>THE DEVELOPER LAB</span>
-            <span className="tabular-nums text-[#38bdf8]">{progress}%</span>
+            <span className="tabular-nums text-white">{progress}%</span>
           </div>
 
-          <p className="mt-4 text-sm font-mono-tech tracking-wide text-[#f3f6fa]">
+          <p className="mt-4 text-sm font-mono-tech tracking-wide text-white">
             {phase === 'boot' ? 'Loading portfolio...' : 'Portfolio ready'}
           </p>
 
@@ -69,7 +69,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             aria-valuemax={100}
           >
             <div
-              className="h-full rounded-full bg-[#38bdf8] transition-transform duration-75 origin-left"
+              className="h-full rounded-full bg-white transition-transform duration-75 origin-left"
               style={{ transform: `scaleX(${progress / 100})` }}
             />
           </div>

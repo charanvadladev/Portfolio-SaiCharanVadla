@@ -103,7 +103,7 @@ export const Experience: React.FC = () => {
     >
       <div className="mx-auto max-w-[1320px] px-6 lg:px-12">
         <div className="mx-auto max-w-2xl text-center">
-          <div className="font-mono-tech text-xs uppercase tracking-[0.2em] text-[#a78bfa]">
+          <div className="font-mono-tech text-xs uppercase tracking-[0.2em] text-white/75">
             03. Experience &amp; Education
           </div>
           <h2
@@ -125,7 +125,7 @@ export const Experience: React.FC = () => {
           <div
             ref={spineRef}
             aria-hidden="true"
-            className="absolute top-0 bottom-0 left-2 w-0.5 origin-top bg-gradient-to-b from-[#38bdf8] via-[#a78bfa] to-[#34d399] md:left-1/2 md:-translate-x-1/2"
+            className="absolute top-0 bottom-0 left-2 w-0.5 origin-top bg-gradient-to-b from-white via-[#a1a1aa] to-white/40 md:left-1/2 md:-translate-x-1/2"
             style={{ transform: reducedMotion ? 'scaleY(1)' : 'scaleY(0)' }}
           />
 
@@ -142,7 +142,7 @@ export const Experience: React.FC = () => {
                   {/* Node Marker on Spine */}
                   <span
                     aria-hidden="true"
-                    className="absolute top-2 -left-[22px] h-3 w-3 rounded-full border-2 border-[#38bdf8] bg-[#07090d] md:left-1/2 md:-translate-x-1/2"
+                    className="absolute top-2 -left-[22px] h-3 w-3 rounded-full border-2 border-white bg-[#050407] md:left-1/2 md:-translate-x-1/2"
                   />
 
                   {/* Left Column (Company Logo, Role & Period) */}
@@ -161,18 +161,18 @@ export const Experience: React.FC = () => {
                       <CompanyLogoBadge stage={stage} />
                     </div>
 
-                    <div className="font-mono-tech text-xs text-[#38bdf8] tabular-nums">
+                    <div className="font-mono-tech text-xs text-white tabular-nums">
                       <span>{stage.period}</span>
-                      <span aria-hidden="true" className="mx-2 text-[#475569]">
+                      <span aria-hidden="true" className="mx-2 text-[#52525b]">
                         ·
                       </span>
-                      <span className="text-[#94a3b8]">{stage.location}</span>
+                      <span className="text-[#a1a1aa]">{stage.location}</span>
                     </div>
 
-                    <h3 className="mt-1.5 font-display text-2xl font-bold text-[#f3f6fa]">
+                    <h3 className="mt-1.5 font-display text-2xl font-bold text-white">
                       {stage.company}
                     </h3>
-                    <div className="mt-1 font-sans text-sm font-medium text-[#a78bfa]">
+                    <div className="mt-1 font-sans text-sm font-medium text-[#d4d4d8]">
                       {stage.roleTitle}
                     </div>
                   </div>
@@ -183,14 +183,14 @@ export const Experience: React.FC = () => {
                       isLeft ? 'md:pl-10' : 'md:order-1 md:pr-10 md:text-right'
                     }`}
                   >
-                    <div className="font-mono-tech text-xs text-[#cbd5e1]">
+                    <div className="font-mono-tech text-xs text-white/90">
                       {stage.projectFocus}
                     </div>
-                    <p className="mt-2 text-sm leading-relaxed text-[#94a3b8] sm:text-base">
+                    <p className="mt-2 text-sm leading-relaxed text-[#a1a1aa] sm:text-base">
                       {stage.summary}
                     </p>
                     <div
-                      className={`mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono-tech text-xs text-[#cbd5e1] ${
+                      className={`mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 font-mono-tech text-xs text-[#e4e4e7] ${
                         isLeft ? '' : 'md:justify-end'
                       }`}
                     >
@@ -198,7 +198,7 @@ export const Experience: React.FC = () => {
                         <React.Fragment key={tech}>
                           <span>{tech}</span>
                           {tIdx < stage.technologies.length - 1 && (
-                            <span aria-hidden="true" className="text-[#475569]">
+                            <span aria-hidden="true" className="text-[#52525b]">
                               ·
                             </span>
                           )}
@@ -218,7 +218,7 @@ export const Experience: React.FC = () => {
           data-career-item
           className="mt-20 border-t border-white/10 pt-14"
         >
-          <div className="flex items-center gap-2.5 font-mono-tech text-xs uppercase tracking-[0.2em] text-[#38bdf8]">
+          <div className="flex items-center gap-2.5 font-mono-tech text-xs uppercase tracking-[0.2em] text-white">
             <GraduationCap className="h-4 w-4" />
             <span>Education</span>
           </div>
@@ -227,18 +227,18 @@ export const Experience: React.FC = () => {
             {DEVELOPER_PROFILE.educationHistory.map((edu) => (
               <article
                 key={edu.degree}
-                className="rounded-2xl border border-white/10 bg-[#0b0d14] p-6 transition-colors hover:border-white/25"
+                className="rounded-2xl border border-white/10 bg-[#09090d] p-6 transition-colors hover:border-white/25"
               >
-                <div className="font-mono-tech text-xs text-[#94a3b8] tabular-nums">
+                <div className="font-mono-tech text-xs text-[#a1a1aa] tabular-nums">
                   {edu.period}
                 </div>
-                <h3 className="mt-1.5 font-display text-xl font-bold text-[#f3f6fa]">
+                <h3 className="mt-1.5 font-display text-xl font-bold text-white">
                   {edu.degree}
                 </h3>
-                <div className="mt-1 text-sm font-medium text-[#38bdf8]">
+                <div className="mt-1 text-sm font-medium text-white/90">
                   {edu.institution}
                 </div>
-                <p className="mt-3 text-sm leading-relaxed text-[#94a3b8]">
+                <p className="mt-3 text-sm leading-relaxed text-[#a1a1aa]">
                   {edu.focus}
                 </p>
               </article>

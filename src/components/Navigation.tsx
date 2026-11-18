@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const RESUME_PDF_URL = '/assets/aistudio/Sai_Charan_Vadla_Resume_00dd917c.pdf';
+const RESUME_PDF_URL = '/assets/Sai_Charan_Vadla_Resume.pdf';
 
 export const Navigation: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);

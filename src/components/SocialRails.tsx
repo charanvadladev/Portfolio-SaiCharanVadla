@@ -15,7 +15,7 @@ export const SocialRails: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub profile"
-          className="text-[#94a3b8] transition-transform duration-200 hover:-translate-y-0.5 hover:text-[#38bdf8]"
+          className="text-[#a1a1aa] transition-transform duration-200 hover:-translate-y-0.5 hover:text-white"
         >
           <Github className="h-4 w-4" />
         </a>
@@ -24,14 +24,14 @@ export const SocialRails: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn profile"
-          className="text-[#94a3b8] transition-transform duration-200 hover:-translate-y-0.5 hover:text-[#38bdf8]"
+          className="text-[#a1a1aa] transition-transform duration-200 hover:-translate-y-0.5 hover:text-white"
         >
           <Linkedin className="h-4 w-4" />
         </a>
         <a
           href={`mailto:${DEVELOPER_PROFILE.contact.email}`}
           aria-label="Email Sai Charan Vadla"
-          className="text-[#94a3b8] transition-transform duration-200 hover:-translate-y-0.5 hover:text-[#38bdf8]"
+          className="text-[#a1a1aa] transition-transform duration-200 hover:-translate-y-0.5 hover:text-white"
         >
           <Mail className="h-4 w-4" />
         </a>
@@ -45,7 +45,7 @@ export const SocialRails: React.FC = () => {
       >
         <a
           href={`mailto:${DEVELOPER_PROFILE.contact.email}`}
-          className="font-mono-tech text-[11px] tracking-[0.16em] text-[#94a3b8] transition-colors hover:text-[#38bdf8]"
+          className="font-mono-tech text-[11px] tracking-[0.16em] text-[#a1a1aa] transition-colors hover:text-white"
           style={{ writingMode: 'vertical-rl' }}
         >
           {DEVELOPER_PROFILE.contact.email}

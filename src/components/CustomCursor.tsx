@@ -70,7 +70,7 @@ export const CustomCursor: React.FC = () => {
   if (!enabled || !visible) return null;
 
   const ringSize =
-    variant === 'project' ? 'h-12 w-12 border-[#38bdf8] bg-[#38bdf8]/10' : variant === 'action' ? 'h-9 w-9 border-[#38bdf8]/80' : 'h-7 w-7 border-white/30';
+     variant === 'action' ? 'h-9 w-9 border-white/80' : 'h-7 w-7 border-white/30';
 
   return (
     <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-[70]">
@@ -78,19 +78,14 @@ export const CustomCursor: React.FC = () => {
         ref={ringRef}
         className={`fixed -left-3.5 -top-3.5 rounded-full border transition-[width,height,margin,border-color,background-color] duration-150 ease-out flex items-center justify-center ${ringSize}`}
         style={{
-          marginLeft: variant === 'project' ? '-10px' : variant === 'action' ? '-4px' : '0px',
-          marginTop: variant === 'project' ? '-10px' : variant === 'action' ? '-4px' : '0px',
+          marginLeft: variant === 'action' ? '-4px' : '0px',
+          marginTop:  variant === 'action' ? '-4px' : '0px',
         }}
       >
-        {variant === 'project' && (
-          <span className="text-[9px] font-mono-tech uppercase tracking-wider text-[#38bdf8]">
-            View
-          </span>
-        )}
       </div>
       <div
         ref={dotRef}
-        className="fixed -left-1 -top-1 h-2 w-2 rounded-full bg-[#38bdf8]"
+        className="fixed -left-1 -top-1 h-2 w-2 rounded-full bg-white"
       />
     </div>
   );

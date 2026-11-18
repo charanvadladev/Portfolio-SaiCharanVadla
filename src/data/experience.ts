@@ -25,7 +25,7 @@ export const EXPERIENCE_PIPELINE: ExperienceEntry[] = [
     logoVariant: 'invert-wordmark',
     summary:
       'Translated operator, supervisor, and process-engineer requirements into a role-based handover architecture featuring create/retrieve/summarize workflows, task escalation, and validated persistence rules across 50+ manufacturing scenarios.',
-    technologies: ['C#', 'ASP.NET Core', 'Generative AI', 'PostgreSQL', 'Clean Architecture'],
+    technologies: ['Generative AI', 'Siemens Copilot'],
   },
   {
     id: 'siemens-working-student',
@@ -39,7 +39,7 @@ export const EXPERIENCE_PIPELINE: ExperienceEntry[] = [
     logoVariant: 'invert-wordmark',
     summary:
       'Delivered Angular filtering, sorting, aggregation, and visualization workflows for industrial datasets backed by REST endpoints, Jasmine/Karma unit tests, WebdriverIO E2E suites, and GitLab CI/CD release monitoring.',
-    technologies: ['Angular', 'TypeScript', 'RxJS', 'Jasmine / Karma', 'WebdriverIO', 'GitLab CI/CD'],
+    technologies: ['Angular', 'TypeScript', 'FastAPI', 'GitLab CI/CD'],
   },
   {
     id: 'peer-network',
